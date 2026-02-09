@@ -11,8 +11,17 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"azureproject2output_accountKey": {
+			"value": ""
+		},
+		"project2linkstorage_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://firststoragejithin.dfs.core.windows.net/"
+		},
+		"azureproject2output_properties_typeProperties_url": {
+			"value": "https://project2jithin.dfs.core.windows.net/"
 		}
 	}
 }

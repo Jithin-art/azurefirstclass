@@ -15,9 +15,21 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
 		},
+		"azureproject2output_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'azureproject2output'"
+		},
+		"project2linkstorage_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'project2linkstorage'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://firststoragejithin.dfs.core.windows.net/"
+		},
+		"azureproject2output_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://project2jithin.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -52,8 +64,17 @@
 					"AzureDataLakeStorage1_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
 					},
+					"azureproject2output_accountKey": {
+						"value": "[parameters('azureproject2output_accountKey')]"
+					},
+					"project2linkstorage_connectionString": {
+						"value": "[parameters('project2linkstorage_connectionString')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"azureproject2output_properties_typeProperties_url": {
+						"value": "[parameters('azureproject2output_properties_typeProperties_url')]"
 					}
 				}
 			},
