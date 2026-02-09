@@ -186,7 +186,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileSystem": "democon02"
+						"fileSystem": "datapipeline1"
 					}
 				},
 				"schema": {}
